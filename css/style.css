@@ -72,9 +72,9 @@ width: 10%;
 
 .navHeader {
     display: flex;
+    padding-top: 10px;
 }
     
-
 
 .navLinkHeader1 {
 width: 40%;
@@ -93,6 +93,26 @@ height: 70px;
     border-top: 2px solid #0065FC
 }
 
+/****** Searchbar ***********/
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location-dot {
+    background-color: #F2F2F2;
+}
+
+.research-input {
+    color: black;
+}
+
+.research-button {
+    color: white;
+    background-color: #0065FC;
+}
 
 
 /****** Hebergements And Populaires ***********/
@@ -111,6 +131,45 @@ height: 70px;
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 5px;
+    min-width: 200px;
+    
+}
+
+.hebergements-cards img{
+    
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.hebergements-cards .card-content {
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.afficher-plus {
+    margin-bottom: 0px;
 }
 
 /****** Populaires ***********/
