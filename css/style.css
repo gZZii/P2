@@ -43,6 +43,7 @@ body {
 
 .card-title {
     font-size: 16px;
+    font-weight: 700;
 }
 
 .euro {
@@ -111,12 +112,14 @@ margin-right: 30px;
 
 .header-txt h1 {
     font-weight: 800;
+    font-size: 22px;
     margin:30px 0 0 50px;
+
 }
 
 .header-txt p {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     margin: 8px 0px 0 50px;
 }
 
@@ -190,6 +193,8 @@ margin-right: 30px;
 
 .filters h2 {
     margin-left: 50px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .filter-options {
@@ -238,6 +243,11 @@ margin-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information p {
+    font-size: 400;
+    font-weight: 16px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -300,6 +310,7 @@ margin-right: 30px;
     box-sizing: border-box;
 }
 
+
 .hebergements-cards .card-subtitle{
     font-size: 14px;
     font-weight: 400;
@@ -315,6 +326,8 @@ margin-right: 30px;
     margin-top: 30px;
     margin-bottom: 0;
     margin-left: 30px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 
@@ -383,6 +396,7 @@ margin-right: 30px;
 
 .activites-cards a {
     width: 20%;
+    min-width: 220px;
 }
 
 .activites-cards .card{
@@ -413,6 +427,11 @@ footer {
     align-items:flex-start;
     justify-content :flex-start;
     margin: 65px 30px 0 30px; 
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .footer-areas {
@@ -509,13 +528,13 @@ footer {
         margin-left: 50px;
     }
 
-
     .activites-cards .card {
         height: 270px;
+        
     }
 
     .activites-cards img{
-        width: 100%px;
+        width: 100%;
         height: 200px;
         border-radius: 20px 20px 0 0;
         padding: 0px;
@@ -549,7 +568,6 @@ footer {
     .header {
         flex-direction: column;
         justify-content: center;
-        align-items: space-around;
     }
 
     .BookiLogo {
@@ -672,6 +690,10 @@ footer {
         height: 130px;
     }
 
+    .afficher-plus {
+        padding: 10px;
+    }
+
     .activites-cards {
         flex-direction: column;
         margin-bottom: 50px;
@@ -699,6 +721,7 @@ footer {
 
     footer {
         margin: 0;
+        padding: 30px;
     }
 
     .footer-areas {
