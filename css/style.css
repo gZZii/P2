@@ -557,16 +557,6 @@ footer h3 {
 @media (max-width: 767.98px) {
     /* ... */
 
-
-    .main-container {
-        padding: 0 0 0 0;
-    }
-
-    .header {
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .BookiLogo {
         margin-left: 45%;
         margin-right: 45%;
@@ -598,6 +588,24 @@ footer h3 {
         color: #0065FC;
         border-top: 0;
         border-bottom: 2px #0065FC solid;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-txt h1 {
+        margin-left: 20px;
+    }
+
+    .header-txt p {
+        margin-left: 20px;
+    }
+
+    .searchbar {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .location-dot {
@@ -634,18 +642,20 @@ footer h3 {
         padding-left: 0;
     }
 
+    .filters h2 {
+        margin-left: 20px;
+    }
+
     .filter-options {
         flex-wrap: wrap;
         justify-content: center;
-        /*margin-left: 30px;*/
         width: 100%;
     }
 
     .button {
-        width: 34%;
+        width: 33%;
         margin: 5px;
         font-size: 14px;
-        /*min-width: 10px;*/
     } 
 
 
@@ -656,23 +666,20 @@ footer h3 {
 
     .hebergements-and-populaires section {
         border-radius: 0%;
-        padding: 20px;
     }
     
     .populaires {
         width: 100%;
-        margin-right: 20px;
+        padding: 20px;
     }
 
     .populaires-cards {
-        padding-right: 20px;
         flex-direction: column;
     }
     
     .populaires-cards .card {
         width: 100%;
-        min-width: 200px;
-        margin: 10px;
+        margin-top: 15px;
     }
 
     .populaires-cards img {
