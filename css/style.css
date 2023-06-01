@@ -551,14 +551,12 @@ footer h3 {
 @media (max-width: 767.98px) {
     /* ... */
 
-    .BookiLogo {
-        margin-left: 45%;
-        margin-right: 45%;
+    .header {
+        align-items: center;
     }
 
     .navHeader {
-        align-items:flex-start;
-        justify-content: space-around;
+        width: 100%;
         border-bottom: 2px #F2F2F2 solid;
     }      
 
