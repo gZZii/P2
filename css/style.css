@@ -131,7 +131,8 @@ margin-right: 30px;
 
 /****** Searchbar ***********/
 
-.searchbar {
+
+form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -141,9 +142,6 @@ margin-right: 30px;
     margin: 35px 0px 20px 0px;
     border: 1px #F2F2F2 solid;
     width: fit-content;
-}
-form {
-    display: flex;
 }
 
 .fa-location-dot {
@@ -569,7 +567,6 @@ footer h3 {
     .searchbar {
         margin-left: 20px;
         margin-right: 20px;
-        width: 70%;
     }
 
     form {
