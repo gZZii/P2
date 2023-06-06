@@ -569,7 +569,11 @@ footer h3 {
     .searchbar {
         margin-left: 20px;
         margin-right: 20px;
-        width: auto;
+        width: 70%;
+    }
+
+    form {
+        width: 100%;
     }
 
     .location-dot {
@@ -728,4 +732,9 @@ footer h3 {
     }
 }
 
+@media (min-width: 1441px) {
+.header {
+    padding-left: 20px;
+}
+}
 /***** THE END *****/
